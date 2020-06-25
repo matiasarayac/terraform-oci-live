@@ -1,1 +1,0 @@
-instance_display_name = "terraform-instance"
