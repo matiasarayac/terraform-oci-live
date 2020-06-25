@@ -16,7 +16,7 @@ import (
 func TestTerraformInstance(t *testing.T) {
 	terraformOptions := &terraform.Options{
 		// Set the path to the Terraform code that will be tested.
-		TerraformDir: "../instance-and-storage",
+		TerraformDir: "../instance",
 	}
 
 	// Clean up resources with "terraform destroy" at the end of the test.
